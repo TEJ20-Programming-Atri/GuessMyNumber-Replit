@@ -18,7 +18,7 @@ def valid_input(prompt:str):
 
 random_number = rand(min_number, max_number)
 
-answer = int(valid_input(f"Guess a number between {min_number} and {max_number}: "))
+answer = valid_input(f"Guess a number between {min_number} and {max_number}: ")
 
 if answer == random_number:
     print(f"The correct number was {random_number}!")
